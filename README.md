@@ -6,6 +6,14 @@ Install the signed Universal macOS app (Apple Silicon and Intel, macOS 14 or lat
 brew install --cask Ngochiendev/tap/sensebar
 ```
 
+If your Homebrew version asks you to trust this third-party cask, review [Casks/sensebar.rb](Casks/sensebar.rb), then run:
+
+```sh
+brew tap Ngochiendev/tap
+brew trust --cask Ngochiendev/tap/sensebar
+brew install --cask Ngochiendev/tap/sensebar
+```
+
 Open SenseBar from Applications and complete its permission setup. The same app supports English and Vietnamese.
 
 ## Updates
